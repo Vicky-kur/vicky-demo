@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    /* height: 9.5vh; */
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.logo{
+      /* border: 1px solid red; */
+      width: 12vw;
+      height: 9.5vh;
+
+}
+.a{
+   width: 4vw;
+   /* border: 1px solid red; */
+   margin-top:2px;
+}
+.b{
+   width: 6vw;
+   /* border: 1px solid red; */
+   position:relative;
+   right:5%;
+   bottom:36%;
+}
+.c{
+   width: 6vw;
+   /* border: 1px solid red; */
+   position:relative;
+   left:30%;
+   bottom:60%;
+}
+.menu{
+      display: flex;
+      /* border: 1px solid red; */
+      width: 70vw;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+ul{
+    list-style-type: none;
+display: flex;
+}
+li a{
+    /* border: 1px solid red; */
+     text-decoration: none;
+     display: block;
+     padding: 20px 20px 0px 20px;
+    font-size: 3vh;
+    color: bisque;
+    height:6vh ;   
+    overflow: hidden;
+}
+.login{
+    height: 5vh;
+    width: 9vw;
+    /* border: 1px solid red; */
+    border-radius: 40px;
+    position: relative;
+    top: 15px;
+    background-color: orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.login a{
+    color: white;
+    margin: 5px;
+    padding-top: 10px;
+    position: relative;
+    top: 6px;
+    left: 2px;
+    text-decoration:none;
+}
+
+p{
+    display: inline;
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+.menu a:hover{
+    color: orangered;
+    border-bottom: 5px solid orangered;
+
+}
+.login a:hover{
+    color: black;
+}
+.coverimg{
+    height: 123vh;
+    width: 100%;
+    background-image:url("Image/cover.jpg");
+    /* border: 1px solid rgb(0, 8, 255); */
+    overflow: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    animation-name: vicky1 ;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes vicky1{
+    0%{background-image:url("Image/cover.jpg");}
+    25%{background-image:url("Image/1e84951ea4e43a94485c30851c151ad2.jpg");}
+    50%{background-image: url("Image/309184-call-of-duty-mobile-wallpaper-top-free-call-of-duty-mobile.jpg");}
+    75%{background-image: url("Image/6164273.jpg");}
+    100%{background-image: url("Image/wallpaperbetter (1).jpg");}
+}
+
+.container{
+    height: 100vh;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    z-index: -1;
+    flex-wrap: wrap;
+    gap:1%;
+    overflow: hidden;
+}
+.fire{
+    /* display: flex; */
+    /* border: 1px solid rgb(8, 7, 7); */
+    border-radius: 10px;
+    width:33%;
+    height:40.5vh;
+    /* background-image: url("Image/b1b8a60daf685a2a9349be9fdb8f086e.jpg"); */
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    position:relative;
+    top: 10.5px;
+    left: 11px;
+    /* box-shadow: 20px 20px 80px; */
+    left: 10px;
+    z-index: 1;
+}
+.fire img{
+    /* background-size:auto;   */
+    height: 100%;
+    border-radius: 10px;
+    box-shadow:8px 8px 8px;
+    z-index: 2;
+    
+}   
+
+.farlight{
+    /* border: 1px solid rgb(20, 148, 0); */
+    border-radius: 10px;
+    height: 40.5vh;
+    width: 30.3%;
+    position: relative;
+    top: 10.5px;
+    left: 10.5px;
+    /* left: 15px; */
+    /* background-size:cover; */
+    
+}
+.farlight img{
+    /* background-size:cover; */
+    /* border-image: fill 0 linear-gradient(#0003, #000); */
+    height: 100%;
+    border-radius: 10px; 
+    box-shadow:8px 8px 8px;  
+}
+.clash{
+    /* border: 1px solid rgb(20, 148, 0); */
+    border-radius: 10px;
+    height: 40.5vh;
+    width: 33%;
+    position: relative;
+    top: 10.5px;
+    left:10.5px ;
+    /* object-fit: cover; */
+    /* left:180px; */
+
+}
+.clash img{
+    height:100%;
+    border-radius: 10px;   
+    box-shadow:8px 8px 8px;
+    /* background-size: contain; */
+}
+.call{
+    /* border: 2px solid red; */
+    border-image: url(\Image\Picsart_24-01-08_16-26-43-891.png);
+    border-radius: 10px;
+    height: 40.5vh;
+    width: 32.5%;
+    position:relative;
+    bottom: 40px;
+    left: 11px;
+    /* top: 300px;
+    right: 500px; */
+    /* top:300px */
+}
+.call img{
+    height:40vh;
+    border-radius: 10px; 
+    box-shadow:8px 8px 8px;
+}
+.bgmi{
+    /* border: 2px solid rgb(0, 52, 148); */
+    border-radius: 10px;
+    height: 40.5vh;
+    width: 30.3%;
+    position:relative;
+    bottom: 40px;
+    left: 9px;
+}
+.bgmi img{
+    height:40vh;
+    width: 30vw;
+    border-radius: 10px ; 
+    box-shadow:8px 8px 8px;
+    
+}
+
+.gamebox{
+ transition: all 0.2s ease-in-out;
+}
+
+/* #firebox{
+    transition-delay: 1s ;
+} */
+/* .box:hover{
+    transform: scale(1.05); */
+    /* transform: rotate(180deg); */
+ 
+
+div .line{
+    border: 1px solid rgb(93, 86, 40);
+    height: 5px;
+    z-index: 2;
+    position:relative;
+    bottom: 60px;
+    background-color: rgb(93, 86, 40);
+}
+
+.gamebox:hover{
+    transform: scale(1.05);
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    border: 1px solid rgb(93, 86, 40);
+    border-radius:100px;
+    background-color: rgb(93, 86, 40);
+    position: relative;
+    left:87.7%;
+    bottom: 34%;
+
+}
+.circle img{
+    height: 5vh;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    box-shadow: none;
+}   
+div.farline{
+    background-color:rgb(55, 94, 41) ;
+    border-color:rgb(55, 94, 41) ;
+}
+.farcircle{
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    border: 1px solid rgb(55, 94, 41);
+    border-radius:100px;
+    background-color: rgb(55, 94, 41);
+    position: relative;
+    left:86.6%;
+    bottom: 34%;
+}
+.farcircle img{
+    height: 5vh;
+    position: relative;
+    top: 14px;
+    left: 13px;
+    box-shadow: none;
+}
+div.clashline{
+    background-color: rgb(81, 163, 245);
+    border-color: rgb(81, 163, 245);
+}
+div.clashcircle{
+    background-color:rgb(81, 163, 245) ;
+    border-color: rgb(81, 163, 245);
+}
+.callcircle{
+    position: relative;
+    left:87.7%;
+    bottom: 34%;
+}
+.callcircle img{
+    position: relative;
+    top: 14px;
+    left: 8px;
+}
+div.bgmiline{
+    background-color:rgb(245, 182, 81) ;
+    border-color: rgb(245, 182, 81);
+}
+.bgmicircle{
+    background-color:rgb(245, 182, 81) ;
+    border-color: rgb(245, 182, 81);
+    position: relative;
+    left:86.7%;
+    bottom: 34%;
+}
+.bgmicircle img{
+    width: 3vw;
+    position: relative;
+    top: 14px;
+    left: 8px;
+}
+@media(min-width:250px) and (max-width:430px){
+    li a{
+        display: none;
+    }
+    .logo{
+        height: 3.2vh;
+    }
+    .a{
+        position: relative;
+        bottom: 1px;
+    }
+    .logo .c{
+        position: relative;
+        bottom: 100%;
+        left: 36%;
+    }
+    .b{
+        position: relative;
+        bottom: 8px;
+    }
+    nav{
+        height: 3.2vh;
+    }
+}
